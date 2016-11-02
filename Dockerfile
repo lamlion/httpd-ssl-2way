@@ -84,6 +84,7 @@ COPY httpd-foreground /usr/local/bin/
 COPY httpd.conf /usr/local/apache2/conf
 COPY server1.crt /usr/local/apache2/conf
 COPY server1.key /usr/local/apache2/conf
+COPY CA_of_Wearables_clients.crt /usr/local/apache2/conf
 
 #RUN sed -i -e 's/server.crt/server1.crt/g' /usr/local/apache2/conf/httpd.conf \
 #	&& sed -i -e 's/server.key/server1.key/g' /usr/local/apache2/conf/httpd.conf
