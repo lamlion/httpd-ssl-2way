@@ -21,6 +21,7 @@ RUN apt-get update \
 		libpcre++0 \
 		libssl1.0.0 \
 		vim \
+		lynx \
 		net-tools \
 		openssl \
 		curl \
